@@ -8,36 +8,34 @@
     <title>Sign Up</title>
   </head>
   <body>
-    <section>
-      <div class="left-section">
-        <img src="./Bolu.jpg" alt="An image of a girl" />
-      </div>
-      <div class="right-section">
+    <main>
+      <form class="form-container">
         <div class="input-container">
           <h1>Sign Up</h1>
           <label for="name">Name </label>
-          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Name" required />
 
           <label for="username">Username </label>
-          <input type="text" placeholder="Username" />
+          <input type="text" placeholder="Username" required />
 
           <label for="email">Email </label>
-          <input type="email" placeholder="Email address" />
+          <input type="email" placeholder="Email address" required />
           <label for="password">Password </label>
-          <input type="password" placeholder="*****" />
+          <input type="password" placeholder="*****" required />
           <label for="confirm-password">Confirm Password </label>
-          <input type="password" placeholder="*****" />
+          <input type="password" placeholder="*****" required />
 
           <div class="checkbox">
             <input type="checkbox" />
             <p class="terms">I agree to the <span>Terms of User</span></p>
           </div>
           <div>
-            <button class="signup-btn">Sign Up</button>
-            <button class="signin-btn">Sign In</button>
+            <button class="signup-btn" type="submit">Sign Up</button>
+            <button class="signin-btn" type="submit">Sign In</button>
           </div>
         </div>
-      </div>
-    </section>
+      </form>
+    </main>
   </body>
 </html>
+
